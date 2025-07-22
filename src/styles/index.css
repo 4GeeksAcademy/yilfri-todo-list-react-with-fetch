@@ -9,3 +9,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+h1 {
+    font-weight: lighter;
+    color: palevioletred;
+    font-size: 50px;
+}
+
+.container {
+    max-width: 450px;
+}
+
+.hidden-x span {
+    opacity: 0;
+    transition: opacity 0.2s;
+    margin-left: 8px;
+    cursor: pointer;
+    color: red;
+}
+
+.hidden-x:hover span {
+    opacity: 1;
+}
+
+span {
+    cursor: pointer
+}
